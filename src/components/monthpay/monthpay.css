@@ -1,0 +1,26 @@
+.month-all {
+  display: flex;
+  float: left;
+  flex-wrap:wrap;
+  width: 50%;
+  margin-left: 30px;  
+  justify-content: space-around;
+  margin-top: 6%;
+}
+
+.name {
+  font-weight: 50%;
+  margin-right: 5%;
+  border-radius: 2%;
+}
+
+@media only screen and (max-width: 524px){
+  .month-all {
+    display: flex;
+    float: left;
+    margin-left: 30px;  
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 6%;
+  }
+}
